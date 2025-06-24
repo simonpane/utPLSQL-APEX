@@ -21,7 +21,7 @@ wwv_flow_api.import_begin (
 );
 end;
 /
- 
+
 prompt APPLICATION 120 - utPLSQL Testing App
 --
 -- Application Export:
@@ -16627,6 +16627,8 @@ wwv_flow_api.create_page_item(
 ,p_name=>'P3_USER'
 ,p_item_sequence=>10
 ,p_item_plug_id=>wwv_flow_api.id(36687617713018983)
+,p_item_default=>'APP_SCHEMA'
+,p_item_default_type=>'ITEM'
 ,p_prompt=>'User'
 ,p_display_as=>'NATIVE_SELECT_LIST'
 ,p_named_lov=>'OWNER LIST'
@@ -19421,6 +19423,8 @@ wwv_flow_api.create_page_item(
 ,p_item_sequence=>10
 ,p_item_plug_id=>wwv_flow_api.id(66067199544684524)
 ,p_use_cache_before_default=>'NO'
+,p_item_default=>'APP_SCHEMA'
+,p_item_default_type=>'ITEM'
 ,p_prompt=>'User Name'
 ,p_source=>'P17_OWNER'
 ,p_source_type=>'ITEM'
